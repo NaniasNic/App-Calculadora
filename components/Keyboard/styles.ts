@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
     },
     button: {
         width: 98.15,
-        height: 100,
+        height: 107,
         backgroundColor: "red",
         justifyContent: "center",
         alignItems: "center",

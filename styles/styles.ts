@@ -6,7 +6,11 @@ export const styles = StyleSheet.create({
         fontSize: 80,
         color: "#fff",
         textAlign: "right",
-        padding: 15,
+        paddingTop: 200,
+        paddingRight: 20,
         backgroundColor: "#1c191c"
+    },
+    container: {
+        flex: 1
     }
 })

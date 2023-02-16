@@ -1,5 +1,5 @@
 import react, { useState } from "react";
-import { TextInput, View, } from 'react-native';
+import { SafeAreaView, TextInput } from 'react-native';
 
 import { styles } from "./styles/styles";
 
@@ -21,7 +21,7 @@ export default function App() {
   };
 
   return (
-    <View>
+    <SafeAreaView style={styles.container}>
       <TextInput 
         style={styles.display}
         value={input}
@@ -33,6 +33,6 @@ export default function App() {
         handleEqual={handleEqual}
         handleClear={handleClear}
       />
-    </View>
+    </SafeAreaView>
   );
 };
