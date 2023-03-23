@@ -1,4 +1,6 @@
-import { StyleSheet } from "react-native";
+import { Dimensions, StyleSheet } from "react-native";
+
+const { width, height } = Dimensions.get("window");
 
 export const styles = StyleSheet.create({
     container: {
@@ -8,8 +10,8 @@ export const styles = StyleSheet.create({
         flexWrap: "wrap"
     },
     button: {
-        width: 98.15,
-        height: 107,
+        width: width * 0.25,
+        height: height * 0.135,
         backgroundColor: "red",
         justifyContent: "center",
         alignItems: "center",
