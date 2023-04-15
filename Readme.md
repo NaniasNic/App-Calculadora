@@ -13,7 +13,7 @@
 
   <ul>
     <li>
-        <code>expo</code>
+        <code>npx expo</code>
         start
     </li>
   </ul>
